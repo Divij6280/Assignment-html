@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+   
+    <form>
+        <h1>FORM </h1>   <!-- id should be diff-->
+        <lable for="fname">first name: </lable>
+        <input type="text" id="fname" name="fname" placeholder="Divij">
+        <br>
+        <lable for="lname">last name: </lable>
+        <input type="text" id="lname" name="lname" placeholder="Suri">
+        <br>
+        <lable for="email">email id: </lable>
+        <input type="email" id="email" name="email">   <!--email-->
+        <br>
+        <lable for="phone">phone no.:</lable>
+        <input type="tel" id="phone" name="phone" placeholder="98********">  <!--tel-->
+        <br>
+        <lable for="pass">password:</lable>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <!-- jiske liye 2-3 button banane hai unke liye radio button use hoga + unka name="section" same hoga-->
+        <lable for="sectiona">Section:</lable>
+        <input type="radio" value="section A" id="sectiona" name="section" >Section A <!--radio-->
+        <lable for="sectionb"></lable>
+        <input type="radio" value="section B" id="sectionb" name="section">Section B  <!--value=""-->
+        <br>
+        <lable for="food">do you want food card?</lable>
+        <input type="checkbox" name="food" id="food">   <!-- checkbox-->
+        <br>
+        <lable for="dob">date of birth</lable>    <!-- dob-->
+        <input type="date" name="dob" id="dob">
+        <br>
+        <textarea name="explain" cols="30" rows="10"></textarea>
+        
+        <br>
+        <select name="car">   <!-- select-->
+            <option value="car">choose your car</option>
+            <option value="ALTO">ALTO</option>
+            <option value="SWIFT">SWIFT</option>
+            <option value="MARUTI">MARUTI</option>
+            
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+  
+    
+</body>
+</html>
